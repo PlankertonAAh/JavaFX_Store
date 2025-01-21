@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.VBox?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.chart.PieChart?>
+<?import javafx.scene.layout.HBox?>
+<VBox alignment="CENTER" spacing="100.0" xmlns:fx="http://javafx.com/fxml"
+      fx:controller="com.example.java_lukicha_khirdaevi.HelloController">
+    <padding>
+        <Insets bottom="10" left="10.0" right="10.0" top="10.0"/>
+    </padding>
+
+    <VBox alignment="CENTER" spacing="20.0">
+        <Label fx:id="welcomeText"/>
+    </VBox>
+
+    <HBox alignment="CENTER">
+
+        <VBox alignment="CENTER" spacing="20.0">
+            <Button text="addItems" onAction="#onAddItems"/>
+
+            <TextField fx:id="productName" promptText="Insert Product Name" maxWidth="200" ></TextField>
+            <TextField fx:id="productAmount" promptText="Insert Product Amount" maxWidth="200" ></TextField>
+        </VBox>
+
+        <VBox alignment="CENTER" spacing="20.0">
+            <Button text="Delete" onAction="#onDeleteItems"></Button>
+            <TextField fx:id="deleteName" promptText="Insert Product Name To Delete" maxWidth="200" ></TextField>
+            <TextField fx:id="deleteAmount" promptText="Insert Product Amount To Delete" maxWidth="200" ></TextField>
+        </VBox>
+
+    </HBox>
+
+
+    <VBox alignment="CENTER">
+        <PieChart fx:id="pieChart" prefWidth="300" prefHeight="400"/>
+    </VBox>
+
+
+</VBox>
