@@ -1,4 +1,4 @@
-package com.example.java_lukicha_khirdaevi;
+package ;
 
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
