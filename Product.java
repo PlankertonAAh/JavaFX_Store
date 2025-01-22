@@ -1,4 +1,4 @@
-package com.example.java_lukicha_khirdaevi;
+package;
 
 public class Product {
     private int id;
