@@ -1,4 +1,4 @@
-package com.example.java_lukicha_khirdaevi;
+package ;
 
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
